@@ -16,7 +16,7 @@ class Post
       if self.author = false 
         return nil 
       
-      else true 
+      else self.author.title 
     end
   end 
   
